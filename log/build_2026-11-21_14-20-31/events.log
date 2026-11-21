@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000865] (aim_cpp) JobQueued: {'identifier': 'aim_cpp', 'dependencies': OrderedDict()}
+[0.001130] (aim_cpp) JobStarted: {'identifier': 'aim_cpp'}
+[0.009585] (aim_cpp) JobProgress: {'identifier': 'aim_cpp', 'progress': 'cmake'}
+[0.010255] (aim_cpp) JobProgress: {'identifier': 'aim_cpp', 'progress': 'build'}
+[0.011052] (aim_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp', '--', '-j32', '-l32'], 'cwd': '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lym'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lym/rm_ws/install/rm_aim_sim_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lym'), ('OLDPWD', '/home/lym/rm_ws'), ('PYENV_SHELL', 'bash'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lym/rm_ws/src/aim_cpp/install:/home/lym/rm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lym'), ('NAME', 'LAPTOP-H8I327L1'), ('WSL_INTEROP', '/run/WSL/13734_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lym/.pyenv/shims:/opt/ros/humble/bin:/home/lym/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Yi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Yi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/home/lym/rm_ws/src/aim_cpp/install/aim_cpp:/home/lym/rm_ws/install/aim_cpp:/home/lym/rm_ws/install/rm_aim_sim_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp'), ('PYENV_ROOT', '/home/lym/.pyenv'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('GODOT_BIN', '/home/lym/rm_ws/src/rm_aim_sim_training/Godot_v4.7.2-stable_linux.x86_64'), ('PYTHONPATH', '/home/lym/rm_ws/install/rm_aim_sim_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/lym/rm_ws/src/aim_cpp/install/aim_cpp:/home/lym/rm_ws/install/aim_cpp:/home/lym/rm_ws/install/rm_aim_sim_bridge:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.056034] (aim_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aim_node\x1b[0m\n'}
+[0.076333] (aim_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aim_node.dir/src/aim_node.cpp.o\x1b[0m\n'}
+[0.099266] (-) TimerEvent: {}
+[0.200077] (-) TimerEvent: {}
+[0.300840] (-) TimerEvent: {}
+[0.401631] (-) TimerEvent: {}
+[0.502671] (-) TimerEvent: {}
+[0.603567] (-) TimerEvent: {}
+[0.704498] (-) TimerEvent: {}
+[0.805273] (-) TimerEvent: {}
+[0.906134] (-) TimerEvent: {}
+[1.006785] (-) TimerEvent: {}
+[1.107473] (-) TimerEvent: {}
+[1.208244] (-) TimerEvent: {}
+[1.309156] (-) TimerEvent: {}
+[1.409978] (-) TimerEvent: {}
+[1.510789] (-) TimerEvent: {}
+[1.611620] (-) TimerEvent: {}
+[1.712425] (-) TimerEvent: {}
+[1.813294] (-) TimerEvent: {}
+[1.913974] (-) TimerEvent: {}
+[2.014788] (-) TimerEvent: {}
+[2.115369] (-) TimerEvent: {}
+[2.216182] (-) TimerEvent: {}
+[2.316838] (-) TimerEvent: {}
+[2.417486] (-) TimerEvent: {}
+[2.518304] (-) TimerEvent: {}
+[2.619216] (-) TimerEvent: {}
+[2.720056] (-) TimerEvent: {}
+[2.820631] (-) TimerEvent: {}
+[2.921158] (-) TimerEvent: {}
+[3.021601] (-) TimerEvent: {}
+[3.122254] (-) TimerEvent: {}
+[3.222890] (-) TimerEvent: {}
+[3.323426] (-) TimerEvent: {}
+[3.424043] (-) TimerEvent: {}
+[3.524682] (-) TimerEvent: {}
+[3.625403] (-) TimerEvent: {}
+[3.726231] (-) TimerEvent: {}
+[3.826931] (-) TimerEvent: {}
+[3.927708] (-) TimerEvent: {}
+[4.028234] (-) TimerEvent: {}
+[4.128827] (-) TimerEvent: {}
+[4.229555] (-) TimerEvent: {}
+[4.330269] (-) TimerEvent: {}
+[4.430780] (-) TimerEvent: {}
+[4.531269] (-) TimerEvent: {}
+[4.631849] (-) TimerEvent: {}
+[4.732385] (-) TimerEvent: {}
+[4.833072] (-) TimerEvent: {}
+[4.933814] (-) TimerEvent: {}
+[5.034584] (-) TimerEvent: {}
+[5.135437] (-) TimerEvent: {}
+[5.236272] (-) TimerEvent: {}
+[5.337109] (-) TimerEvent: {}
+[5.437851] (-) TimerEvent: {}
+[5.538811] (-) TimerEvent: {}
+[5.639342] (-) TimerEvent: {}
+[5.740227] (-) TimerEvent: {}
+[5.841136] (-) TimerEvent: {}
+[5.941834] (-) TimerEvent: {}
+[6.042554] (-) TimerEvent: {}
+[6.143110] (-) TimerEvent: {}
+[6.243755] (-) TimerEvent: {}
+[6.344388] (-) TimerEvent: {}
+[6.444875] (-) TimerEvent: {}
+[6.545277] (-) TimerEvent: {}
+[6.645784] (-) TimerEvent: {}
+[6.746189] (-) TimerEvent: {}
+[6.846706] (-) TimerEvent: {}
+[6.947243] (-) TimerEvent: {}
+[7.047779] (-) TimerEvent: {}
+[7.148142] (-) TimerEvent: {}
+[7.248543] (-) TimerEvent: {}
+[7.349016] (-) TimerEvent: {}
+[7.449607] (-) TimerEvent: {}
+[7.550151] (-) TimerEvent: {}
+[7.650911] (-) TimerEvent: {}
+[7.751794] (-) TimerEvent: {}
+[7.852745] (-) TimerEvent: {}
+[7.953504] (-) TimerEvent: {}
+[8.054227] (-) TimerEvent: {}
+[8.154864] (-) TimerEvent: {}
+[8.255307] (-) TimerEvent: {}
+[8.355788] (-) TimerEvent: {}
+[8.456454] (-) TimerEvent: {}
+[8.557128] (-) TimerEvent: {}
+[8.657752] (-) TimerEvent: {}
+[8.758320] (-) TimerEvent: {}
+[8.858877] (-) TimerEvent: {}
+[8.959761] (-) TimerEvent: {}
+[9.060685] (-) TimerEvent: {}
+[9.161325] (-) TimerEvent: {}
+[9.262150] (-) TimerEvent: {}
+[9.362881] (-) TimerEvent: {}
+[9.463514] (-) TimerEvent: {}
+[9.563979] (-) TimerEvent: {}
+[9.664742] (-) TimerEvent: {}
+[9.765335] (-) TimerEvent: {}
+[9.865871] (-) TimerEvent: {}
+[9.966340] (-) TimerEvent: {}
+[10.066840] (-) TimerEvent: {}
+[10.167492] (-) TimerEvent: {}
+[10.268069] (-) TimerEvent: {}
+[10.368802] (-) TimerEvent: {}
+[10.469586] (-) TimerEvent: {}
+[10.570195] (-) TimerEvent: {}
+[10.670700] (-) TimerEvent: {}
+[10.771281] (-) TimerEvent: {}
+[10.871986] (-) TimerEvent: {}
+[10.972923] (-) TimerEvent: {}
+[11.073673] (-) TimerEvent: {}
+[11.174235] (-) TimerEvent: {}
+[11.275071] (-) TimerEvent: {}
+[11.376029] (-) TimerEvent: {}
+[11.476915] (-) TimerEvent: {}
+[11.577885] (-) TimerEvent: {}
+[11.678706] (-) TimerEvent: {}
+[11.779288] (-) TimerEvent: {}
+[11.880075] (-) TimerEvent: {}
+[11.980788] (-) TimerEvent: {}
+[12.081541] (-) TimerEvent: {}
+[12.182199] (-) TimerEvent: {}
+[12.201747] (aim_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable aim_node\x1b[0m\n'}
+[12.282434] (-) TimerEvent: {}
+[12.383242] (-) TimerEvent: {}
+[12.484074] (-) TimerEvent: {}
+[12.584745] (-) TimerEvent: {}
+[12.685315] (-) TimerEvent: {}
+[12.786131] (-) TimerEvent: {}
+[12.886572] (-) TimerEvent: {}
+[12.895236] (aim_cpp) StdoutLine: {'line': b'[100%] Built target aim_node\n'}
+[12.910422] (aim_cpp) CommandEnded: {'returncode': 0}
+[12.912371] (aim_cpp) JobProgress: {'identifier': 'aim_cpp', 'progress': 'install'}
+[12.920929] (aim_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp'], 'cwd': '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lym'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lym/rm_ws/install/rm_aim_sim_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lym'), ('OLDPWD', '/home/lym/rm_ws'), ('PYENV_SHELL', 'bash'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lym/rm_ws/src/aim_cpp/install:/home/lym/rm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lym'), ('NAME', 'LAPTOP-H8I327L1'), ('WSL_INTEROP', '/run/WSL/13734_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lym/.pyenv/shims:/opt/ros/humble/bin:/home/lym/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Yi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Yi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/home/lym/rm_ws/src/aim_cpp/install/aim_cpp:/home/lym/rm_ws/install/aim_cpp:/home/lym/rm_ws/install/rm_aim_sim_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp'), ('PYENV_ROOT', '/home/lym/.pyenv'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('GODOT_BIN', '/home/lym/rm_ws/src/rm_aim_sim_training/Godot_v4.7.2-stable_linux.x86_64'), ('PYTHONPATH', '/home/lym/rm_ws/install/rm_aim_sim_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/lym/rm_ws/src/aim_cpp/install/aim_cpp:/home/lym/rm_ws/install/aim_cpp:/home/lym/rm_ws/install/rm_aim_sim_bridge:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[12.929133] (aim_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.929560] (aim_cpp) StdoutLine: {'line': b'-- Installing: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/lib/aim_cpp/aim_node\n'}
+[12.947427] (aim_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lym/rm_ws/src/aim_cpp/install/aim_cpp/lib/aim_cpp/aim_node" to ""\n'}
+[12.947851] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/ament_index/resource_index/package_run_dependencies/aim_cpp\n'}
+[12.948054] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/ament_index/resource_index/parent_prefix_path/aim_cpp\n'}
+[12.948240] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/environment/ament_prefix_path.sh\n'}
+[12.948372] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/environment/ament_prefix_path.dsv\n'}
+[12.948562] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/environment/path.sh\n'}
+[12.948668] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/environment/path.dsv\n'}
+[12.948715] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/local_setup.bash\n'}
+[12.948755] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/local_setup.sh\n'}
+[12.948790] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/local_setup.zsh\n'}
+[12.948823] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/local_setup.dsv\n'}
+[12.948851] (aim_cpp) StdoutLine: {'line': b'-- Installing: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/package.dsv\n'}
+[12.948879] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/ament_index/resource_index/packages/aim_cpp\n'}
+[12.948907] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/cmake/aim_cppConfig.cmake\n'}
+[12.948939] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/cmake/aim_cppConfig-version.cmake\n'}
+[12.948971] (aim_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lym/rm_ws/src/aim_cpp/install/aim_cpp/share/aim_cpp/package.xml\n'}
+[12.950513] (aim_cpp) CommandEnded: {'returncode': 0}
+[12.967019] (aim_cpp) JobEnded: {'identifier': 'aim_cpp', 'rc': 0}
+[12.968277] (-) EventReactorShutdown: {}

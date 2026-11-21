@@ -1,0 +1,20 @@
+[0.013s] Invoking command in '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lym/rm_ws/src/aim_cpp/build/aim_cpp -- -j32 -l32
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target aim_node[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/aim_node.dir/src/aim_node.cpp.o[0m
+[2.938s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:[m[K In member function ‘[01m[Kvoid AimNode::armor_callback(rm_aim_sim_bridge::msg::ArmorCornersArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.938s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:137:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble predicted_cx[m[K’
+[2.938s]   137 |         double [01;31m[Kpredicted_cx[m[K = cx + offset_x;
+[2.938s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[2.938s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:134:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble predicted_cx[m[K’ previously declared here
+[2.939s]   134 |         double [01;36m[Kpredicted_cx[m[K = cx + offset_x;
+[2.939s]       |                [01;36m[K^~~~~~~~~~~~[m[K
+[2.939s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:138:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble predicted_cy[m[K’
+[2.939s]   138 |         double [01;31m[Kpredicted_cy[m[K = cy + offset_y;
+[2.939s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[2.939s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:135:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble predicted_cy[m[K’ previously declared here
+[2.939s]   135 |         double [01;36m[Kpredicted_cy[m[K = cy + offset_y;
+[2.939s]       |                [01;36m[K^~~~~~~~~~~~[m[K
+[7.451s] gmake[2]: *** [CMakeFiles/aim_node.dir/build.make:76: CMakeFiles/aim_node.dir/src/aim_node.cpp.o] Error 1
+[7.451s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aim_node.dir/all] Error 2
+[7.451s] gmake: *** [Makefile:146: all] Error 2
+[7.455s] Invoked command in '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lym/rm_ws/src/aim_cpp/build/aim_cpp -- -j32 -l32
