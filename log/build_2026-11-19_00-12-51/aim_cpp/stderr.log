@@ -1,0 +1,10 @@
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:[m[K In member function ‘[01m[Kvoid AimNode::armor_callback(rm_aim_sim_bridge::msg::ArmorCornersArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:84:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_vx[m[K’ was not declared in this scope
+   84 |                 [01;31m[Ktarget_vx[m[K = (cx - last_cx_) / dt;
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:85:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_vy[m[K’ was not declared in this scope
+   85 |                 [01;31m[Ktarget_vy[m[K = (cy - last_cy_) / dt;
+      |                 [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/aim_node.dir/build.make:76: CMakeFiles/aim_node.dir/src/aim_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aim_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

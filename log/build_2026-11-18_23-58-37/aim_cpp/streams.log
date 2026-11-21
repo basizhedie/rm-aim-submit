@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lym/rm_ws/src/aim_cpp/build/aim_cpp -- -j32 -l32
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target aim_node[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/aim_node.dir/src/aim_node.cpp.o[0m
+[2.372s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:206:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.373s]   206 | }
+[2.373s]       |  [01;31m[K^[m[K
+[2.373s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:10:37:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.373s]    10 | class AimNode : public rclcpp::Node [01;36m[K{[m[K
+[2.373s]       |                                     [01;36m[K^[m[K
+[2.393s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:[m[K In member function ‘[01m[Kvoid AimNode::armor_callback(rm_aim_sim_bridge::msg::ArmorCornersArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.393s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:196:33:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[2.393s]   196 | int main(int argc, char **argv) [01;31m[K{[m[K
+[2.393s]       |                                 [01;31m[K^[m[K
+[2.393s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:206:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.393s]   206 | }
+[2.393s]       |  [01;31m[K^[m[K
+[2.393s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:58:89:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.393s]    58 |     void armor_callback(const rm_aim_sim_bridge::msg::ArmorCornersArray::SharedPtr msg) [01;36m[K{[m[K
+[2.393s]       |                                                                                         [01;36m[K^[m[K
+[2.393s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:[m[K At global scope:
+[2.394s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:206:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.394s]   206 | }
+[2.394s]       |  [01;31m[K^[m[K
+[6.063s] gmake[2]: *** [CMakeFiles/aim_node.dir/build.make:76: CMakeFiles/aim_node.dir/src/aim_node.cpp.o] Error 1
+[6.063s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aim_node.dir/all] Error 2
+[6.063s] gmake: *** [Makefile:146: all] Error 2
+[6.066s] Invoked command in '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lym/rm_ws/src/aim_cpp/build/aim_cpp -- -j32 -l32

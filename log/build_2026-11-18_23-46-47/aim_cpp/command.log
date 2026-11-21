@@ -1,0 +1,2 @@
+Invoking command in '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lym/rm_ws/src/aim_cpp/build/aim_cpp -- -j32 -l32
+Invoked command in '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lym/rm_ws/src/aim_cpp/build/aim_cpp -- -j32 -l32

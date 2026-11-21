@@ -1,0 +1,14 @@
+[0.014s] Invoking command in '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lym/rm_ws/src/aim_cpp/build/aim_cpp -- -j32 -l32
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target aim_node[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/aim_node.dir/src/aim_node.cpp.o[0m
+[2.426s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:[m[K In member function ‘[01m[Kvoid AimNode::armor_callback(rm_aim_sim_bridge::msg::ArmorCornersArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.426s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:84:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_vx[m[K’ was not declared in this scope
+[2.426s]    84 |                 [01;31m[Ktarget_vx[m[K = (cx - last_cx_) / dt;
+[2.427s]       |                 [01;31m[K^~~~~~~~~[m[K
+[2.431s] [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:85:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_vy[m[K’ was not declared in this scope
+[2.431s]    85 |                 [01;31m[Ktarget_vy[m[K = (cy - last_cy_) / dt;
+[2.431s]       |                 [01;31m[K^~~~~~~~~[m[K
+[6.374s] gmake[2]: *** [CMakeFiles/aim_node.dir/build.make:76: CMakeFiles/aim_node.dir/src/aim_node.cpp.o] Error 1
+[6.374s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aim_node.dir/all] Error 2
+[6.374s] gmake: *** [Makefile:146: all] Error 2
+[6.382s] Invoked command in '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lym/rm_ws/src/aim_cpp/build/aim_cpp -- -j32 -l32

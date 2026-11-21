@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000545] (aim_cpp) JobQueued: {'identifier': 'aim_cpp', 'dependencies': OrderedDict()}
+[0.000592] (aim_cpp) JobStarted: {'identifier': 'aim_cpp'}
+[0.008527] (aim_cpp) JobProgress: {'identifier': 'aim_cpp', 'progress': 'cmake'}
+[0.009870] (aim_cpp) JobProgress: {'identifier': 'aim_cpp', 'progress': 'build'}
+[0.010007] (aim_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp', '--', '-j32', '-l32'], 'cwd': '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lym'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lym/rm_ws/install/rm_aim_sim_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lym'), ('OLDPWD', '/home/lym/rm_ws'), ('PYENV_SHELL', 'bash'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lym/rm_ws/src/aim_cpp/install:/home/lym/rm_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lym'), ('NAME', 'LAPTOP-H8I327L1'), ('WSL_INTEROP', '/run/WSL/12881_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lym/.pyenv/shims:/opt/ros/humble/bin:/home/lym/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Yi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Yi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Yi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/home/lym/rm_ws/src/aim_cpp/install/aim_cpp:/home/lym/rm_ws/install/aim_cpp:/home/lym/rm_ws/install/rm_aim_sim_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lym/rm_ws/src/aim_cpp/build/aim_cpp'), ('PYENV_ROOT', '/home/lym/.pyenv'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lym/rm_ws/install/rm_aim_sim_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/lym/rm_ws/src/aim_cpp/install/aim_cpp:/home/lym/rm_ws/install/aim_cpp:/home/lym/rm_ws/install/rm_aim_sim_bridge:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.058910] (aim_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aim_node\x1b[0m\n'}
+[0.080759] (aim_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aim_node.dir/src/aim_node.cpp.o\x1b[0m\n'}
+[0.099762] (-) TimerEvent: {}
+[0.200323] (-) TimerEvent: {}
+[0.301067] (-) TimerEvent: {}
+[0.401520] (-) TimerEvent: {}
+[0.501946] (-) TimerEvent: {}
+[0.602504] (-) TimerEvent: {}
+[0.703210] (-) TimerEvent: {}
+[0.803879] (-) TimerEvent: {}
+[0.904426] (-) TimerEvent: {}
+[1.004893] (-) TimerEvent: {}
+[1.105423] (-) TimerEvent: {}
+[1.206152] (-) TimerEvent: {}
+[1.306835] (-) TimerEvent: {}
+[1.407428] (-) TimerEvent: {}
+[1.508206] (-) TimerEvent: {}
+[1.608887] (-) TimerEvent: {}
+[1.709623] (-) TimerEvent: {}
+[1.810388] (-) TimerEvent: {}
+[1.911184] (-) TimerEvent: {}
+[2.012131] (-) TimerEvent: {}
+[2.113247] (-) TimerEvent: {}
+[2.214152] (-) TimerEvent: {}
+[2.314856] (-) TimerEvent: {}
+[2.415613] (-) TimerEvent: {}
+[2.516549] (-) TimerEvent: {}
+[2.617244] (-) TimerEvent: {}
+[2.718129] (-) TimerEvent: {}
+[2.819094] (-) TimerEvent: {}
+[2.828138] (aim_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AimNode::armor_callback(rm_aim_sim_bridge::msg::ArmorCornersArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.828620] (aim_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:118:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kiniinial_distance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kinitial_distance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.828895] (aim_cpp) StderrLine: {'line': b'  118 |         double flight_time_final = (\x1b[01;31m\x1b[Kiniinial_distance\x1b[m\x1b[K / bullet_speed_) + 0.015;\n'}
+[2.829020] (aim_cpp) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.829199] (aim_cpp) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kinitial_distance\x1b[m\x1b[K\n'}
+[2.829578] (aim_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:171:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.829971] (aim_cpp) StderrLine: {'line': b'  171 |             double \x1b[01;35m\x1b[Kdt\x1b[m\x1b[K = (current_time - last_armor_time_).seconds();\n'}
+[2.830239] (aim_cpp) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.832942] (aim_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:173:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdy\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.833239] (aim_cpp) StderrLine: {'line': b'  173 |         if (\x1b[01;31m\x1b[Kdt\x1b[m\x1b[K > 0.001)\n'}
+[2.833326] (aim_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.833476] (aim_cpp) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kdy\x1b[m\x1b[K\n'}
+[2.919449] (-) TimerEvent: {}
+[3.020481] (-) TimerEvent: {}
+[3.121330] (-) TimerEvent: {}
+[3.222060] (-) TimerEvent: {}
+[3.322641] (-) TimerEvent: {}
+[3.423370] (-) TimerEvent: {}
+[3.524471] (-) TimerEvent: {}
+[3.625452] (-) TimerEvent: {}
+[3.726319] (-) TimerEvent: {}
+[3.827020] (-) TimerEvent: {}
+[3.927527] (-) TimerEvent: {}
+[4.028276] (-) TimerEvent: {}
+[4.129072] (-) TimerEvent: {}
+[4.229628] (-) TimerEvent: {}
+[4.330097] (-) TimerEvent: {}
+[4.430638] (-) TimerEvent: {}
+[4.531472] (-) TimerEvent: {}
+[4.632091] (-) TimerEvent: {}
+[4.732649] (-) TimerEvent: {}
+[4.833432] (-) TimerEvent: {}
+[4.934266] (-) TimerEvent: {}
+[5.034961] (-) TimerEvent: {}
+[5.135924] (-) TimerEvent: {}
+[5.236724] (-) TimerEvent: {}
+[5.337551] (-) TimerEvent: {}
+[5.438309] (-) TimerEvent: {}
+[5.539221] (-) TimerEvent: {}
+[5.639967] (-) TimerEvent: {}
+[5.740774] (-) TimerEvent: {}
+[5.841258] (-) TimerEvent: {}
+[5.942049] (-) TimerEvent: {}
+[6.042990] (-) TimerEvent: {}
+[6.143908] (-) TimerEvent: {}
+[6.245049] (-) TimerEvent: {}
+[6.345805] (-) TimerEvent: {}
+[6.446406] (-) TimerEvent: {}
+[6.547216] (-) TimerEvent: {}
+[6.648165] (-) TimerEvent: {}
+[6.748956] (-) TimerEvent: {}
+[6.849864] (-) TimerEvent: {}
+[6.904980] (aim_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aim_node.dir/build.make:76: CMakeFiles/aim_node.dir/src/aim_node.cpp.o] Error 1\n'}
+[6.905241] (aim_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aim_node.dir/all] Error 2\n'}
+[6.905378] (aim_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.908423] (aim_cpp) CommandEnded: {'returncode': 2}
+[6.918349] (aim_cpp) JobEnded: {'identifier': 'aim_cpp', 'rc': 2}
+[6.928997] (-) EventReactorShutdown: {}

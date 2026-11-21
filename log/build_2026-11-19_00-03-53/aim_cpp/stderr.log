@@ -1,0 +1,59 @@
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:11:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kpublic[m[K’
+   11 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:11:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kpublic[m[K’
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   27 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:[m[K In function ‘[01m[Kvoid armor_callback(rm_aim_sim_bridge::msg::ArmorCornersArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:154:28:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  154 |         rclcpp::Time now = [01;31m[Kthis[m[K->now();
+      |                            [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:1[m[K:
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:167:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  167 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "发送指令： Yaw=%.2f,Pitch=%.2f, Fire=%d", cmd.yaw, cmd.pitch, cmd.fire);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:167:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:167:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  167 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "发送指令： Yaw=%.2f,Pitch=%.2f, Fire=%d", cmd.yaw, cmd.pitch, cmd.fire);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:1[m[K:
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:167:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  167 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "发送指令： Yaw=%.2f,Pitch=%.2f, Fire=%d", cmd.yaw, cmd.pitch, cmd.fire);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:167:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  167 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "发送指令： Yaw=%.2f,Pitch=%.2f, Fire=%d", cmd.yaw, cmd.pitch, cmd.fire);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:196:33:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  196 | int main(int argc, char **argv) [01;31m[K{[m[K
+      |                                 [01;31m[K^[m[K
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:206:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  206 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/lym/rm_ws/src/aim_cpp/src/aim_node.cpp:58:89:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   58 |     void armor_callback(const rm_aim_sim_bridge::msg::ArmorCornersArray::SharedPtr msg) [01;36m[K{[m[K
+      |                                                                                         [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/aim_node.dir/build.make:76: CMakeFiles/aim_node.dir/src/aim_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aim_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
