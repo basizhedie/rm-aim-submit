@@ -22,3 +22,5 @@
 ![任务四 6米平移靶](images/task4.png)
 ![任务五 6米旋转靶](images/task5.png)
 ![任务六 6米旋转平移靶](images/task6.png)
+
+#name:刘燚铭
